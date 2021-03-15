@@ -1,5 +1,5 @@
 const map = document.querySelector('.modal-map');
-const mapOpenButton = document.querySelector('.contacts__map');
+const mapOpenButton = document.querySelector('.contacts-map');
 const mapCloseButton = map.querySelector('.modal-close');
 
 mapOpenButton.addEventListener('click', function (e) {
