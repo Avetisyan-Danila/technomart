@@ -377,6 +377,8 @@ img {
   white-space: nowrap;
   width: 150px;
   box-sizing: border-box;
+  margin-right: 14px;
+  position: relative;
 }
 
 .header__bookmarks::before {
@@ -405,17 +407,18 @@ img {
 }
 
 .header__cart {
-  padding: 9px 26px 9px 49px;
+  padding: 9px 21px 9px 12px;
   position: relative;
   white-space: nowrap;
-  width: 150px;
+  width: 136px;
   box-sizing: border-box;
+  text-align: right;
 }
 
 .header__cart::before {
   content: '';
   position: absolute;
-  left: 26px;
+  left: 12px;
   top: 50%;
   transform: translateY(-50%);
   background-image: url(../img/icons/cart.svg);
