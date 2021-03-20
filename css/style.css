@@ -406,6 +406,11 @@ img {
   opacity: 0.3;
 }
 
+.index-header .header__cart {
+  text-align: left;
+  padding-left: 35px;
+}
+
 .header__cart {
   padding: 9px 21px 9px 12px;
   position: relative;
@@ -933,6 +938,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.goods-item__img img {
+  position: relative;
+  left: -5px;
+  top: 3px;
 }
 
 .goods-item__controls {

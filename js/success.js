@@ -3,9 +3,15 @@ const successOpenButton = document.querySelectorAll('.buy');
 const successCloseButton = success.querySelector('.modal-close');
 const successContinueButton = success.querySelector('.modal-success__button');
 const blackout = document.querySelector('.blackout');
+const header = document.querySelector('.header');
 
 const cart = document.querySelector('.header__cart');
 let cartNum = 0;
+if (header.classList.contains('catalog-header')) {
+  cartNum = 10;
+  cart.textContent = 'Корзина: ' + cartNum;
+  cart.classList.add('header__cart--active');
+}
 
 const bookmarks = document.querySelector('.header__bookmarks');
 const bookmarksButton = document.querySelectorAll('.bookmarks');
